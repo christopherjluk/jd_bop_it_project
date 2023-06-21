@@ -3,6 +3,7 @@ void setup() {
   pinMode(8, OUTPUT);
 }
 
+// Delay of 75 allows my circuit to work as normal
 void loop() {
   while(digitalRead(9) == HIGH){
     digitalWrite(8, HIGH);
