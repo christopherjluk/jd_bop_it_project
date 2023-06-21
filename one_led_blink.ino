@@ -1,4 +1,5 @@
 //Dane Krall
+//Christopher Luk
 void setup() {
   pinMode(9, INPUT);
   pinMode(8, OUTPUT);
